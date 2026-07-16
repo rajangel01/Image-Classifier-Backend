@@ -27,5 +27,6 @@ async def predict(image: UploadFile = File(...)):
         shutil.copyfileobj(image.file, buffer)
 
     result = predict_image(file_path)
+    os.remove(file_path)
 
     return result
