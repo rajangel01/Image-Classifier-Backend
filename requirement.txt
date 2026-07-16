@@ -1,6 +1,8 @@
-tensorflow
+tensorflow==2.19.0
 fastapi
 uvicorn
-python-multipart
 numpy
 pillow
+python-multipart
+scikit-learn
+matplotlib
