@@ -23,7 +23,7 @@ model.compile(
 history = model.fit(
     x_train,
     y_train,
-    epochs=50,
+    epochs=500,
     batch_size=64,
     validation_split=0.2,
     verbose=1
